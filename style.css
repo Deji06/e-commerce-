@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: ;
+    font-family: Kumbh Sans ;
 }
 nav{
     display: flex;
@@ -43,8 +43,72 @@ nav{
     margin: auto auto;
 }
 .container{
+    display: flex;
     border: 1px solid red;
     width: 80%;
-    height: 400px;
+    height: 800px;
     margin: 40px auto;
+}
+.left-container{
+    width: 50%;
+
+}
+.left-container .image{
+    width: 70%;
+    height: 60vh;
+    border-radius: 5px;
+    margin: 20px 50px;
+}
+.image-container{
+    display: flex;
+    gap: 0.7rem;
+    margin: 5px 50px;
+}
+.image-container img{
+    
+    width: 20%;
+    border-radius: 5px;    
+}
+.image-container img:hover{
+    border: 2px solid hsl(26, 100%, 55%);
+    background-color: transparent;
+    cursor: pointer;
+}
+.right-container{
+    border: 1px solid red;
+    width: 50%;
+    margin: 70px 0;
+    height: 300px;
+}
+.right-container h3{
+    color: hsl(26, 100%, 55%);
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+.right-container h2{
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-size: 2.5rem;
+    width: 80%;
+}
+.right-container .text{
+    font-size: 1.2rem;
+    color: hsl(219, 9%, 45%)
+}
+.price{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 10px auto;
+}
+.price p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.price h5{
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+}
+.discount{
+    
 }
