@@ -247,11 +247,9 @@ header{
     gap: 2rem;
 }
 .right-box img{
-/* border: 1px solid red; */
 margin: 0;
 }
 .right-box p{
-    /* border: 1px solid red; */
     margin: 0;
     font-size: 1.2rem;
 
@@ -289,7 +287,6 @@ margin: 0;
     header{
         display: flex;
       align-items: center;
-      border: 1px solid red;
     }
     .lmenu{
         flex-direction: column;
@@ -324,7 +321,6 @@ margin: 0;
         display: flex;
         gap: 1rem;
         align-items: center;
-        /* border: 1px solid red; */
         margin-right: 10px;
     }
     .active{
@@ -334,7 +330,6 @@ margin: 0;
         display: block;
         margin-top: 10px ;
         margin-left: 0;
-        border: 1px solid green;
     }
     .bar{
         background-color: #000;
